@@ -2,6 +2,37 @@
 
 CPER provides composition-posterior normalization (CPN) for a classifier operating on feature vectors. It predicts the class of a query using unlabeled reference vectors from the same person. It accepts embeddings produced by your own encoder.
 
+## Project layout
+
+| Directory | Contents |
+| --- | --- |
+| Repository root | Embedding API, source training, calibration and checkpoint prediction for new data |
+| [preprocessing](preprocessing/) | Dataset preparation, clip metadata, face detection and alignment, speech and text preparation |
+| [features](features/) | CLIP and face identity feature extraction, temporal pooling and feature conversion |
+| [vision](vision/) | Frame loaders, visual networks, training, zero-shot prediction and optional job queues |
+| [experiments](experiments/) | Reference CPN implementation, baseline and streaming methods, synthetic generator, suite scheduler, multi-seed runs and paired result aggregation |
+| [analysis](analysis/) | Alternative normalization methods, diagnostic probes, job definitions and numerical summaries |
+
+## Running the reference pipeline
+
+Use Python 3.12 with a CUDA-enabled PyTorch installation for GPU workers. Run commands from the repository root. Install the core analysis dependencies with `python -m pip install -r experiments/requirements.txt`. For feature extraction, install the dependencies in `preprocessing/requirements.txt`. The MTCNN and identity-feature paths additionally require a version of `facenet-pytorch` compatible with your PyTorch installation. The optional language-model paths in `vision/` and `features/` use `accelerate`, `peft` and `bitsandbytes`.
+
+Set `EMO_ROOT` to an absolute directory for datasets, model files, embeddings, caches, runs and reports. It defaults to `~/.cper`. For example, in PowerShell use `$env:EMO_ROOT = 'D:/cper-data'`. Source archives and pretrained models are external inputs. The lab archive names and expected subdirectories are listed in `preprocessing/prep_lab.py`. Store CLIP model directories under `models/clip-vit-large-patch14` and `models/clip-vit-base-patch16`. For the YuNet backend place the ONNX detector under `models/yunet/`.
+
+1. Prepare laboratory clips with `python preprocessing/prep_lab.py --which ravdess,cremad,mead,enterface`. Extract both CLIP representations for each dataset, e.g. `python features/extract_clip_cls.py --data ravdess --model l14` and again with `--model b16`.
+2. For MELD, unpack the source archive with `python preprocessing/prep_meld_unpack.py`, align faces with `python preprocessing/prep_yunet.py --which meld`, and extract the CLIP representations. For natural speech and text, run `python preprocessing/prep_natural.py --models` followed by the individual options `--meld`, `--shemo`, `--emoz`, `--thai`, and `--thaix` in that order. The Studio transfer preparation requires the Zoom inputs.
+3. Check inference using `python experiments/cmn.py --selftest`. Inspect the suite manifest with `python experiments/run_cpn.py --list`. To exercise the file pipeline without downloading recordings, run `python experiments/synth_data.py --name synth_demo` followed by `python experiments/cmn.py --data synth_demo --feat raw --method source --folds 0 --steps 32 --suite lite`.
+4. With the full inputs ready, run the commands below in order. Run profiling with exclusive access to the GPU. Set worker counts and per-worker memory fractions to suit the device. Leave output paths at their defaults for the multi-seed extension, which locates the seed-0 manifest and summaries under the shared data root.
+
+```sh
+python experiments/run_cpn.py --suites main,ablation,synth,stream,repr --workers 5 --mem-frac 0.12
+python experiments/run_cpn.py --suites profile --workers 1
+python experiments/aggregate_cpn.py
+python experiments/run_cpn_multiseed.py --workers 5 --mem-frac 0.12
+```
+
+The multi-seed runner reuses completed seed-0 jobs, trains the two additional seeds and calls the multi-seed aggregator. Numerical summaries are written under `EMO_ROOT/reports`. The standalone embedding API below is for fitting a new classifier. Use the reference pipeline above for the original folds, comparison methods and scoring protocols.
+
 ## Installation
 
 Clone the repository and install NumPy and PyTorch in your Python environment.

@@ -1,0 +1,200 @@
+--data ravdess --method semix --seed 0
+--data ravdess --method lp --seed 0
+--data ravdess --method mlp --seed 0
+--data ravdess --method ctr --seed 0
+--data ravdess --method ctr_mlp --seed 0
+--data ravdess --method pctr --seed 0
+--data ravdess --method cat --seed 0
+--data ravdess --method fuse --seed 0
+--data ravdess --method pl --seed 0
+--data ravdess --method settf --seed 0
+--data ravdess --method demix --seed 0
+--data ravdess --method semix_free --seed 0
+--data ravdess --method semix_unemb --seed 0
+--data ravdess --method semix_05b --seed 0
+--data ravdess --method semix_noem --seed 0
+--data ravdess --method semix_nosubj --seed 0
+--data ravdess --method mlp --seed 0 --sup query
+--data ravdess --method ctr_mlp --seed 0 --sup query
+--data ravdess --method settf --seed 0 --sup query
+--data ravdess --method semix --seed 0 --sup query
+--data cremad --method semix --seed 0
+--data cremad --method lp --seed 0
+--data cremad --method mlp --seed 0
+--data cremad --method ctr --seed 0
+--data cremad --method ctr_mlp --seed 0
+--data cremad --method pctr --seed 0
+--data cremad --method cat --seed 0
+--data cremad --method fuse --seed 0
+--data cremad --method pl --seed 0
+--data cremad --method settf --seed 0
+--data cremad --method demix --seed 0
+--data cremad --method semix_free --seed 0
+--data cremad --method semix_unemb --seed 0
+--data cremad --method semix_05b --seed 0
+--data cremad --method semix_noem --seed 0
+--data cremad --method semix_nosubj --seed 0
+--data cremad --method mlp --seed 0 --sup query
+--data cremad --method ctr_mlp --seed 0 --sup query
+--data cremad --method settf --seed 0 --sup query
+--data cremad --method semix --seed 0 --sup query
+--data ravdess --method semix --seed 1
+--data ravdess --method lp --seed 1
+--data ravdess --method mlp --seed 1
+--data ravdess --method ctr --seed 1
+--data ravdess --method ctr_mlp --seed 1
+--data ravdess --method pctr --seed 1
+--data ravdess --method cat --seed 1
+--data ravdess --method fuse --seed 1
+--data ravdess --method pl --seed 1
+--data ravdess --method settf --seed 1
+--data ravdess --method demix --seed 1
+--data ravdess --method semix_free --seed 1
+--data ravdess --method semix_unemb --seed 1
+--data ravdess --method semix_05b --seed 1
+--data ravdess --method semix_noem --seed 1
+--data ravdess --method semix_nosubj --seed 1
+--data ravdess --method mlp --seed 1 --sup query
+--data ravdess --method ctr_mlp --seed 1 --sup query
+--data ravdess --method settf --seed 1 --sup query
+--data ravdess --method semix --seed 1 --sup query
+--data cremad --method semix --seed 1
+--data cremad --method lp --seed 1
+--data cremad --method mlp --seed 1
+--data cremad --method ctr --seed 1
+--data cremad --method ctr_mlp --seed 1
+--data cremad --method pctr --seed 1
+--data cremad --method cat --seed 1
+--data cremad --method fuse --seed 1
+--data cremad --method pl --seed 1
+--data cremad --method settf --seed 1
+--data cremad --method demix --seed 1
+--data cremad --method semix_free --seed 1
+--data cremad --method semix_unemb --seed 1
+--data cremad --method semix_05b --seed 1
+--data cremad --method semix_noem --seed 1
+--data cremad --method semix_nosubj --seed 1
+--data cremad --method mlp --seed 1 --sup query
+--data cremad --method ctr_mlp --seed 1 --sup query
+--data cremad --method settf --seed 1 --sup query
+--data cremad --method semix --seed 1 --sup query
+--data ravdess --method semix --seed 2
+--data ravdess --method lp --seed 2
+--data ravdess --method mlp --seed 2
+--data ravdess --method ctr --seed 2
+--data ravdess --method ctr_mlp --seed 2
+--data ravdess --method pctr --seed 2
+--data ravdess --method cat --seed 2
+--data ravdess --method fuse --seed 2
+--data ravdess --method pl --seed 2
+--data ravdess --method settf --seed 2
+--data ravdess --method demix --seed 2
+--data ravdess --method semix_free --seed 2
+--data ravdess --method semix_unemb --seed 2
+--data ravdess --method semix_05b --seed 2
+--data ravdess --method semix_noem --seed 2
+--data ravdess --method semix_nosubj --seed 2
+--data ravdess --method mlp --seed 2 --sup query
+--data ravdess --method ctr_mlp --seed 2 --sup query
+--data ravdess --method settf --seed 2 --sup query
+--data ravdess --method semix --seed 2 --sup query
+--data cremad --method semix --seed 2
+--data cremad --method lp --seed 2
+--data cremad --method mlp --seed 2
+--data cremad --method ctr --seed 2
+--data cremad --method ctr_mlp --seed 2
+--data cremad --method pctr --seed 2
+--data cremad --method cat --seed 2
+--data cremad --method fuse --seed 2
+--data cremad --method pl --seed 2
+--data cremad --method settf --seed 2
+--data cremad --method demix --seed 2
+--data cremad --method semix_free --seed 2
+--data cremad --method semix_unemb --seed 2
+--data cremad --method semix_05b --seed 2
+--data cremad --method semix_noem --seed 2
+--data cremad --method semix_nosubj --seed 2
+--data cremad --method mlp --seed 2 --sup query
+--data cremad --method ctr_mlp --seed 2 --sup query
+--data cremad --method settf --seed 2 --sup query
+--data cremad --method semix --seed 2 --sup query
+--data ravdess --method semix --seed 3
+--data ravdess --method lp --seed 3
+--data ravdess --method mlp --seed 3
+--data ravdess --method ctr --seed 3
+--data ravdess --method ctr_mlp --seed 3
+--data ravdess --method pctr --seed 3
+--data ravdess --method cat --seed 3
+--data ravdess --method fuse --seed 3
+--data ravdess --method pl --seed 3
+--data ravdess --method settf --seed 3
+--data ravdess --method demix --seed 3
+--data ravdess --method semix_free --seed 3
+--data ravdess --method semix_unemb --seed 3
+--data ravdess --method semix_05b --seed 3
+--data ravdess --method semix_noem --seed 3
+--data ravdess --method semix_nosubj --seed 3
+--data ravdess --method mlp --seed 3 --sup query
+--data ravdess --method ctr_mlp --seed 3 --sup query
+--data ravdess --method settf --seed 3 --sup query
+--data ravdess --method semix --seed 3 --sup query
+--data cremad --method semix --seed 3
+--data cremad --method lp --seed 3
+--data cremad --method mlp --seed 3
+--data cremad --method ctr --seed 3
+--data cremad --method ctr_mlp --seed 3
+--data cremad --method pctr --seed 3
+--data cremad --method cat --seed 3
+--data cremad --method fuse --seed 3
+--data cremad --method pl --seed 3
+--data cremad --method settf --seed 3
+--data cremad --method demix --seed 3
+--data cremad --method semix_free --seed 3
+--data cremad --method semix_unemb --seed 3
+--data cremad --method semix_05b --seed 3
+--data cremad --method semix_noem --seed 3
+--data cremad --method semix_nosubj --seed 3
+--data cremad --method mlp --seed 3 --sup query
+--data cremad --method ctr_mlp --seed 3 --sup query
+--data cremad --method settf --seed 3 --sup query
+--data cremad --method semix --seed 3 --sup query
+--data ravdess --method semix --seed 4
+--data ravdess --method lp --seed 4
+--data ravdess --method mlp --seed 4
+--data ravdess --method ctr --seed 4
+--data ravdess --method ctr_mlp --seed 4
+--data ravdess --method pctr --seed 4
+--data ravdess --method cat --seed 4
+--data ravdess --method fuse --seed 4
+--data ravdess --method pl --seed 4
+--data ravdess --method settf --seed 4
+--data ravdess --method demix --seed 4
+--data ravdess --method semix_free --seed 4
+--data ravdess --method semix_unemb --seed 4
+--data ravdess --method semix_05b --seed 4
+--data ravdess --method semix_noem --seed 4
+--data ravdess --method semix_nosubj --seed 4
+--data ravdess --method mlp --seed 4 --sup query
+--data ravdess --method ctr_mlp --seed 4 --sup query
+--data ravdess --method settf --seed 4 --sup query
+--data ravdess --method semix --seed 4 --sup query
+--data cremad --method semix --seed 4
+--data cremad --method lp --seed 4
+--data cremad --method mlp --seed 4
+--data cremad --method ctr --seed 4
+--data cremad --method ctr_mlp --seed 4
+--data cremad --method pctr --seed 4
+--data cremad --method cat --seed 4
+--data cremad --method fuse --seed 4
+--data cremad --method pl --seed 4
+--data cremad --method settf --seed 4
+--data cremad --method demix --seed 4
+--data cremad --method semix_free --seed 4
+--data cremad --method semix_unemb --seed 4
+--data cremad --method semix_05b --seed 4
+--data cremad --method semix_noem --seed 4
+--data cremad --method semix_nosubj --seed 4
+--data cremad --method mlp --seed 4 --sup query
+--data cremad --method ctr_mlp --seed 4 --sup query
+--data cremad --method settf --seed 4 --sup query
+--data cremad --method semix --seed 4 --sup query

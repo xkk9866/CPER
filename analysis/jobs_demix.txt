@@ -1,0 +1,150 @@
+--data ravdess --feat both --method demix --seed 0 --dump_z 1
+--data ravdess --feat both --method lp --seed 0 --dump_z 0
+--data ravdess --feat both --method mlp --seed 0 --dump_z 0
+--data ravdess --feat both --method ctr --seed 0 --dump_z 0
+--data ravdess --feat both --method ctr_mlp --seed 0 --dump_z 0
+--data ravdess --feat both --method settf --seed 0 --dump_z 0
+--data ravdess --feat both --method demix_noem --seed 0 --dump_z 0
+--data ravdess --feat both --method demix_lin --seed 0 --dump_z 0
+--data ravdess --feat both --method demix_nosubj --seed 0 --dump_z 0
+--data ravdess --feat frozen --method lp --seed 0
+--data ravdess --feat frozen --method ctr --seed 0
+--data ravdess --feat frozen --method demix --seed 0
+--data ravdess --feat ft --method lp --seed 0
+--data ravdess --feat ft --method ctr --seed 0
+--data ravdess --feat ft --method demix --seed 0
+--data cremad --feat both --method demix --seed 0 --dump_z 1
+--data cremad --feat both --method lp --seed 0 --dump_z 0
+--data cremad --feat both --method mlp --seed 0 --dump_z 0
+--data cremad --feat both --method ctr --seed 0 --dump_z 0
+--data cremad --feat both --method ctr_mlp --seed 0 --dump_z 0
+--data cremad --feat both --method settf --seed 0 --dump_z 0
+--data cremad --feat both --method demix_noem --seed 0 --dump_z 0
+--data cremad --feat both --method demix_lin --seed 0 --dump_z 0
+--data cremad --feat both --method demix_nosubj --seed 0 --dump_z 0
+--data cremad --feat frozen --method lp --seed 0
+--data cremad --feat frozen --method ctr --seed 0
+--data cremad --feat frozen --method demix --seed 0
+--data cremad --feat ft --method lp --seed 0
+--data cremad --feat ft --method ctr --seed 0
+--data cremad --feat ft --method demix --seed 0
+--data ravdess --feat both --method demix --seed 1 --dump_z 0
+--data ravdess --feat both --method lp --seed 1 --dump_z 0
+--data ravdess --feat both --method mlp --seed 1 --dump_z 0
+--data ravdess --feat both --method ctr --seed 1 --dump_z 0
+--data ravdess --feat both --method ctr_mlp --seed 1 --dump_z 0
+--data ravdess --feat both --method settf --seed 1 --dump_z 0
+--data ravdess --feat both --method demix_noem --seed 1 --dump_z 0
+--data ravdess --feat both --method demix_lin --seed 1 --dump_z 0
+--data ravdess --feat both --method demix_nosubj --seed 1 --dump_z 0
+--data ravdess --feat frozen --method lp --seed 1
+--data ravdess --feat frozen --method ctr --seed 1
+--data ravdess --feat frozen --method demix --seed 1
+--data ravdess --feat ft --method lp --seed 1
+--data ravdess --feat ft --method ctr --seed 1
+--data ravdess --feat ft --method demix --seed 1
+--data cremad --feat both --method demix --seed 1 --dump_z 0
+--data cremad --feat both --method lp --seed 1 --dump_z 0
+--data cremad --feat both --method mlp --seed 1 --dump_z 0
+--data cremad --feat both --method ctr --seed 1 --dump_z 0
+--data cremad --feat both --method ctr_mlp --seed 1 --dump_z 0
+--data cremad --feat both --method settf --seed 1 --dump_z 0
+--data cremad --feat both --method demix_noem --seed 1 --dump_z 0
+--data cremad --feat both --method demix_lin --seed 1 --dump_z 0
+--data cremad --feat both --method demix_nosubj --seed 1 --dump_z 0
+--data cremad --feat frozen --method lp --seed 1
+--data cremad --feat frozen --method ctr --seed 1
+--data cremad --feat frozen --method demix --seed 1
+--data cremad --feat ft --method lp --seed 1
+--data cremad --feat ft --method ctr --seed 1
+--data cremad --feat ft --method demix --seed 1
+--data ravdess --feat both --method demix --seed 2 --dump_z 0
+--data ravdess --feat both --method lp --seed 2 --dump_z 0
+--data ravdess --feat both --method mlp --seed 2 --dump_z 0
+--data ravdess --feat both --method ctr --seed 2 --dump_z 0
+--data ravdess --feat both --method ctr_mlp --seed 2 --dump_z 0
+--data ravdess --feat both --method settf --seed 2 --dump_z 0
+--data ravdess --feat both --method demix_noem --seed 2 --dump_z 0
+--data ravdess --feat both --method demix_lin --seed 2 --dump_z 0
+--data ravdess --feat both --method demix_nosubj --seed 2 --dump_z 0
+--data ravdess --feat frozen --method lp --seed 2
+--data ravdess --feat frozen --method ctr --seed 2
+--data ravdess --feat frozen --method demix --seed 2
+--data ravdess --feat ft --method lp --seed 2
+--data ravdess --feat ft --method ctr --seed 2
+--data ravdess --feat ft --method demix --seed 2
+--data cremad --feat both --method demix --seed 2 --dump_z 0
+--data cremad --feat both --method lp --seed 2 --dump_z 0
+--data cremad --feat both --method mlp --seed 2 --dump_z 0
+--data cremad --feat both --method ctr --seed 2 --dump_z 0
+--data cremad --feat both --method ctr_mlp --seed 2 --dump_z 0
+--data cremad --feat both --method settf --seed 2 --dump_z 0
+--data cremad --feat both --method demix_noem --seed 2 --dump_z 0
+--data cremad --feat both --method demix_lin --seed 2 --dump_z 0
+--data cremad --feat both --method demix_nosubj --seed 2 --dump_z 0
+--data cremad --feat frozen --method lp --seed 2
+--data cremad --feat frozen --method ctr --seed 2
+--data cremad --feat frozen --method demix --seed 2
+--data cremad --feat ft --method lp --seed 2
+--data cremad --feat ft --method ctr --seed 2
+--data cremad --feat ft --method demix --seed 2
+--data ravdess --feat both --method demix --seed 3 --dump_z 0
+--data ravdess --feat both --method lp --seed 3 --dump_z 0
+--data ravdess --feat both --method mlp --seed 3 --dump_z 0
+--data ravdess --feat both --method ctr --seed 3 --dump_z 0
+--data ravdess --feat both --method ctr_mlp --seed 3 --dump_z 0
+--data ravdess --feat both --method settf --seed 3 --dump_z 0
+--data ravdess --feat both --method demix_noem --seed 3 --dump_z 0
+--data ravdess --feat both --method demix_lin --seed 3 --dump_z 0
+--data ravdess --feat both --method demix_nosubj --seed 3 --dump_z 0
+--data ravdess --feat frozen --method lp --seed 3
+--data ravdess --feat frozen --method ctr --seed 3
+--data ravdess --feat frozen --method demix --seed 3
+--data ravdess --feat ft --method lp --seed 3
+--data ravdess --feat ft --method ctr --seed 3
+--data ravdess --feat ft --method demix --seed 3
+--data cremad --feat both --method demix --seed 3 --dump_z 0
+--data cremad --feat both --method lp --seed 3 --dump_z 0
+--data cremad --feat both --method mlp --seed 3 --dump_z 0
+--data cremad --feat both --method ctr --seed 3 --dump_z 0
+--data cremad --feat both --method ctr_mlp --seed 3 --dump_z 0
+--data cremad --feat both --method settf --seed 3 --dump_z 0
+--data cremad --feat both --method demix_noem --seed 3 --dump_z 0
+--data cremad --feat both --method demix_lin --seed 3 --dump_z 0
+--data cremad --feat both --method demix_nosubj --seed 3 --dump_z 0
+--data cremad --feat frozen --method lp --seed 3
+--data cremad --feat frozen --method ctr --seed 3
+--data cremad --feat frozen --method demix --seed 3
+--data cremad --feat ft --method lp --seed 3
+--data cremad --feat ft --method ctr --seed 3
+--data cremad --feat ft --method demix --seed 3
+--data ravdess --feat both --method demix --seed 4 --dump_z 0
+--data ravdess --feat both --method lp --seed 4 --dump_z 0
+--data ravdess --feat both --method mlp --seed 4 --dump_z 0
+--data ravdess --feat both --method ctr --seed 4 --dump_z 0
+--data ravdess --feat both --method ctr_mlp --seed 4 --dump_z 0
+--data ravdess --feat both --method settf --seed 4 --dump_z 0
+--data ravdess --feat both --method demix_noem --seed 4 --dump_z 0
+--data ravdess --feat both --method demix_lin --seed 4 --dump_z 0
+--data ravdess --feat both --method demix_nosubj --seed 4 --dump_z 0
+--data ravdess --feat frozen --method lp --seed 4
+--data ravdess --feat frozen --method ctr --seed 4
+--data ravdess --feat frozen --method demix --seed 4
+--data ravdess --feat ft --method lp --seed 4
+--data ravdess --feat ft --method ctr --seed 4
+--data ravdess --feat ft --method demix --seed 4
+--data cremad --feat both --method demix --seed 4 --dump_z 0
+--data cremad --feat both --method lp --seed 4 --dump_z 0
+--data cremad --feat both --method mlp --seed 4 --dump_z 0
+--data cremad --feat both --method ctr --seed 4 --dump_z 0
+--data cremad --feat both --method ctr_mlp --seed 4 --dump_z 0
+--data cremad --feat both --method settf --seed 4 --dump_z 0
+--data cremad --feat both --method demix_noem --seed 4 --dump_z 0
+--data cremad --feat both --method demix_lin --seed 4 --dump_z 0
+--data cremad --feat both --method demix_nosubj --seed 4 --dump_z 0
+--data cremad --feat frozen --method lp --seed 4
+--data cremad --feat frozen --method ctr --seed 4
+--data cremad --feat frozen --method demix --seed 4
+--data cremad --feat ft --method lp --seed 4
+--data cremad --feat ft --method ctr --seed 4
+--data cremad --feat ft --method demix --seed 4

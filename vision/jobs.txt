@@ -1,0 +1,116 @@
+# tag | args          (priority = line order; result skipped if @DATA_ROOT@/runs/<tag>/<data>_f<fold>_s0.json exists)
+ours | --data ravdess --fold 0 --epochs 20
+ours | --data ravdess --fold 1 --epochs 20
+ours | --data ravdess --fold 2 --epochs 20
+ours | --data ravdess --fold 3 --epochs 20
+ours | --data ravdess --fold 4 --epochs 20
+ours | --data ravdess --fold 5 --epochs 20
+clip_ft | --data ravdess --fold 0 --re none --ctx 0 --reasoner tiny --tent 1 --epochs 20
+clip_ft | --data ravdess --fold 1 --re none --ctx 0 --reasoner tiny --tent 1 --epochs 20
+clip_ft | --data ravdess --fold 2 --re none --ctx 0 --reasoner tiny --tent 1 --epochs 20
+clip_ft | --data ravdess --fold 3 --re none --ctx 0 --reasoner tiny --tent 1 --epochs 20
+clip_ft | --data ravdess --fold 4 --re none --ctx 0 --reasoner tiny --tent 1 --epochs 20
+clip_ft | --data ravdess --fold 5 --re none --ctx 0 --reasoner tiny --tent 1 --epochs 20
+ours | --data cremad --fold 0 --epochs 6
+ours | --data cremad --fold 1 --epochs 6
+ours | --data cremad --fold 2 --epochs 6
+ours | --data cremad --fold 3 --epochs 6
+ours | --data cremad --fold 4 --epochs 6
+ours | --data ferplus
+ours_tiny | --data ravdess --fold 0 --reasoner tiny --epochs 20
+ours_tiny | --data ravdess --fold 1 --reasoner tiny --epochs 20
+ours_tiny | --data ravdess --fold 2 --reasoner tiny --epochs 20
+ours_tiny | --data ravdess --fold 3 --reasoner tiny --epochs 20
+ours_tiny | --data ravdess --fold 4 --reasoner tiny --epochs 20
+ours_tiny | --data ravdess --fold 5 --reasoner tiny --epochs 20
+ctxmean | --data ravdess --fold 0 --re mean --reasoner tiny --epochs 20
+ctxmean | --data ravdess --fold 1 --re mean --reasoner tiny --epochs 20
+ctxmean | --data ravdess --fold 2 --re mean --reasoner tiny --epochs 20
+ctxmean | --data ravdess --fold 3 --re mean --reasoner tiny --epochs 20
+ctxmean | --data ravdess --fold 4 --re mean --reasoner tiny --epochs 20
+ctxmean | --data ravdess --fold 5 --re mean --reasoner tiny --epochs 20
+icl | --data ravdess --fold 0 --re icl --reasoner tiny --epochs 20
+icl | --data ravdess --fold 1 --re icl --reasoner tiny --epochs 20
+icl | --data ravdess --fold 2 --re icl --reasoner tiny --epochs 20
+icl | --data ravdess --fold 3 --re icl --reasoner tiny --epochs 20
+icl | --data ravdess --fold 4 --re icl --reasoner tiny --epochs 20
+icl | --data ravdess --fold 5 --re icl --reasoner tiny --epochs 20
+mllm_base | --data ravdess --fold 0 --re none --ctx 0 --epochs 20
+mllm_base | --data ravdess --fold 1 --re none --ctx 0 --epochs 20
+mllm_base | --data ravdess --fold 2 --re none --ctx 0 --epochs 20
+mllm_base | --data ravdess --fold 3 --re none --ctx 0 --epochs 20
+mllm_base | --data ravdess --fold 4 --re none --ctx 0 --epochs 20
+mllm_base | --data ravdess --fold 5 --re none --ctx 0 --epochs 20
+clip_ft | --data cremad --fold 0 --re none --ctx 0 --reasoner tiny --tent 1 --epochs 6
+clip_ft | --data cremad --fold 1 --re none --ctx 0 --reasoner tiny --tent 1 --epochs 6
+clip_ft | --data cremad --fold 2 --re none --ctx 0 --reasoner tiny --tent 1 --epochs 6
+clip_ft | --data cremad --fold 3 --re none --ctx 0 --reasoner tiny --tent 1 --epochs 6
+clip_ft | --data cremad --fold 4 --re none --ctx 0 --reasoner tiny --tent 1 --epochs 6
+ours_tiny | --data cremad --fold 0 --reasoner tiny --epochs 6
+ours_tiny | --data cremad --fold 1 --reasoner tiny --epochs 6
+ours_tiny | --data cremad --fold 2 --reasoner tiny --epochs 6
+ours_tiny | --data cremad --fold 3 --reasoner tiny --epochs 6
+ours_tiny | --data cremad --fold 4 --reasoner tiny --epochs 6
+ctxmean | --data cremad --fold 0 --re mean --reasoner tiny --epochs 6
+ctxmean | --data cremad --fold 1 --re mean --reasoner tiny --epochs 6
+ctxmean | --data cremad --fold 2 --re mean --reasoner tiny --epochs 6
+ctxmean | --data cremad --fold 3 --re mean --reasoner tiny --epochs 6
+ctxmean | --data cremad --fold 4 --re mean --reasoner tiny --epochs 6
+icl | --data cremad --fold 0 --re icl --reasoner tiny --epochs 6
+icl | --data cremad --fold 1 --re icl --reasoner tiny --epochs 6
+icl | --data cremad --fold 2 --re icl --reasoner tiny --epochs 6
+icl | --data cremad --fold 3 --re icl --reasoner tiny --epochs 6
+icl | --data cremad --fold 4 --re icl --reasoner tiny --epochs 6
+mllm_base | --data cremad --fold 0 --re none --ctx 0 --epochs 6
+mllm_base | --data cremad --fold 1 --re none --ctx 0 --epochs 6
+mllm_base | --data cremad --fold 2 --re none --ctx 0 --epochs 6
+mllm_base | --data cremad --fold 3 --re none --ctx 0 --epochs 6
+mllm_base | --data cremad --fold 4 --re none --ctx 0 --epochs 6
+clip_ft | --data ferplus --re none --reasoner tiny
+mllm_base | --data ferplus --re none
+clip_lp | --data ferplus --re none --reasoner tiny --train_blocks 0
+dfer_clip | --data ferplus --re none --reasoner tiny --head cliptext
+m3dfel_mil | --data ferplus --re none --reasoner tiny --head mil
+clip_lp | --data ravdess --fold 0 --re none --ctx 0 --reasoner tiny --train_blocks 0 --epochs 20
+clip_lp | --data ravdess --fold 1 --re none --ctx 0 --reasoner tiny --train_blocks 0 --epochs 20
+clip_lp | --data ravdess --fold 2 --re none --ctx 0 --reasoner tiny --train_blocks 0 --epochs 20
+clip_lp | --data ravdess --fold 3 --re none --ctx 0 --reasoner tiny --train_blocks 0 --epochs 20
+clip_lp | --data ravdess --fold 4 --re none --ctx 0 --reasoner tiny --train_blocks 0 --epochs 20
+clip_lp | --data ravdess --fold 5 --re none --ctx 0 --reasoner tiny --train_blocks 0 --epochs 20
+dfer_clip | --data ravdess --fold 0 --re none --ctx 0 --reasoner tiny --head cliptext --epochs 20
+dfer_clip | --data ravdess --fold 1 --re none --ctx 0 --reasoner tiny --head cliptext --epochs 20
+dfer_clip | --data ravdess --fold 2 --re none --ctx 0 --reasoner tiny --head cliptext --epochs 20
+dfer_clip | --data ravdess --fold 3 --re none --ctx 0 --reasoner tiny --head cliptext --epochs 20
+dfer_clip | --data ravdess --fold 4 --re none --ctx 0 --reasoner tiny --head cliptext --epochs 20
+dfer_clip | --data ravdess --fold 5 --re none --ctx 0 --reasoner tiny --head cliptext --epochs 20
+m3dfel_mil | --data ravdess --fold 0 --re none --ctx 0 --reasoner tiny --head mil --epochs 20
+m3dfel_mil | --data ravdess --fold 1 --re none --ctx 0 --reasoner tiny --head mil --epochs 20
+m3dfel_mil | --data ravdess --fold 2 --re none --ctx 0 --reasoner tiny --head mil --epochs 20
+m3dfel_mil | --data ravdess --fold 3 --re none --ctx 0 --reasoner tiny --head mil --epochs 20
+m3dfel_mil | --data ravdess --fold 4 --re none --ctx 0 --reasoner tiny --head mil --epochs 20
+m3dfel_mil | --data ravdess --fold 5 --re none --ctx 0 --reasoner tiny --head mil --epochs 20
+clip_lp | --data cremad --fold 0 --re none --ctx 0 --reasoner tiny --train_blocks 0 --epochs 6
+clip_lp | --data cremad --fold 1 --re none --ctx 0 --reasoner tiny --train_blocks 0 --epochs 6
+clip_lp | --data cremad --fold 2 --re none --ctx 0 --reasoner tiny --train_blocks 0 --epochs 6
+clip_lp | --data cremad --fold 3 --re none --ctx 0 --reasoner tiny --train_blocks 0 --epochs 6
+clip_lp | --data cremad --fold 4 --re none --ctx 0 --reasoner tiny --train_blocks 0 --epochs 6
+dfer_clip | --data cremad --fold 0 --re none --ctx 0 --reasoner tiny --head cliptext --epochs 6
+dfer_clip | --data cremad --fold 1 --re none --ctx 0 --reasoner tiny --head cliptext --epochs 6
+dfer_clip | --data cremad --fold 2 --re none --ctx 0 --reasoner tiny --head cliptext --epochs 6
+dfer_clip | --data cremad --fold 3 --re none --ctx 0 --reasoner tiny --head cliptext --epochs 6
+dfer_clip | --data cremad --fold 4 --re none --ctx 0 --reasoner tiny --head cliptext --epochs 6
+m3dfel_mil | --data cremad --fold 0 --re none --ctx 0 --reasoner tiny --head mil --epochs 6
+m3dfel_mil | --data cremad --fold 1 --re none --ctx 0 --reasoner tiny --head mil --epochs 6
+m3dfel_mil | --data cremad --fold 2 --re none --ctx 0 --reasoner tiny --head mil --epochs 6
+m3dfel_mil | --data cremad --fold 3 --re none --ctx 0 --reasoner tiny --head mil --epochs 6
+m3dfel_mil | --data cremad --fold 4 --re none --ctx 0 --reasoner tiny --head mil --epochs 6
+abl_noE | --data ravdess --fold 0 --estep 0 --epochs 20
+abl_noE | --data ravdess --fold 1 --estep 0 --epochs 20
+abl_noE | --data ravdess --fold 2 --estep 0 --epochs 20
+abl_eb | --data ravdess --fold 0 --re eb --epochs 20
+abl_eb | --data ravdess --fold 1 --re eb --epochs 20
+abl_eb | --data ravdess --fold 2 --re eb --epochs 20
+abl_noE | --data cremad --fold 0 --estep 0 --epochs 6
+abl_eb | --data cremad --fold 0 --re eb --epochs 6
+ZS | clip
+ZS | qwen2vl

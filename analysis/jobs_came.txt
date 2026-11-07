@@ -1,0 +1,430 @@
+--data cremad --seed 0 --method came --comp dir
+--data cremad --seed 1 --method came --comp dir
+--data cremad --seed 2 --method came --comp dir
+--data cremad --seed 3 --method came --comp dir
+--data cremad --seed 4 --method came --comp dir
+--data ravdess --seed 0 --method came --comp dir
+--data ravdess --seed 1 --method came --comp dir
+--data ravdess --seed 2 --method came --comp dir
+--data ravdess --seed 3 --method came --comp dir
+--data ravdess --seed 4 --method came --comp dir
+--data cremad --seed 0 --method came_deep --comp dir
+--data cremad --seed 1 --method came_deep --comp dir
+--data cremad --seed 2 --method came_deep --comp dir
+--data cremad --seed 3 --method came_deep --comp dir
+--data cremad --seed 4 --method came_deep --comp dir
+--data ravdess --seed 0 --method came_deep --comp dir
+--data ravdess --seed 1 --method came_deep --comp dir
+--data ravdess --seed 2 --method came_deep --comp dir
+--data ravdess --seed 3 --method came_deep --comp dir
+--data ravdess --seed 4 --method came_deep --comp dir
+--data cremad --seed 0 --method came_joint --comp dir
+--data cremad --seed 1 --method came_joint --comp dir
+--data cremad --seed 2 --method came_joint --comp dir
+--data cremad --seed 3 --method came_joint --comp dir
+--data cremad --seed 4 --method came_joint --comp dir
+--data ravdess --seed 0 --method came_joint --comp dir
+--data ravdess --seed 1 --method came_joint --comp dir
+--data ravdess --seed 2 --method came_joint --comp dir
+--data ravdess --seed 3 --method came_joint --comp dir
+--data ravdess --seed 4 --method came_joint --comp dir
+--data cremad --seed 0 --method came_jointdeep --comp dir
+--data cremad --seed 1 --method came_jointdeep --comp dir
+--data cremad --seed 2 --method came_jointdeep --comp dir
+--data cremad --seed 3 --method came_jointdeep --comp dir
+--data cremad --seed 4 --method came_jointdeep --comp dir
+--data ravdess --seed 0 --method came_jointdeep --comp dir
+--data ravdess --seed 1 --method came_jointdeep --comp dir
+--data ravdess --seed 2 --method came_jointdeep --comp dir
+--data ravdess --seed 3 --method came_jointdeep --comp dir
+--data ravdess --seed 4 --method came_jointdeep --comp dir
+--data cremad --seed 0 --method came_nodir --comp dir
+--data cremad --seed 1 --method came_nodir --comp dir
+--data cremad --seed 2 --method came_nodir --comp dir
+--data cremad --seed 3 --method came_nodir --comp dir
+--data cremad --seed 4 --method came_nodir --comp dir
+--data ravdess --seed 0 --method came_nodir --comp dir
+--data ravdess --seed 1 --method came_nodir --comp dir
+--data ravdess --seed 2 --method came_nodir --comp dir
+--data ravdess --seed 3 --method came_nodir --comp dir
+--data ravdess --seed 4 --method came_nodir --comp dir
+--data cremad --seed 0 --method came_nosubj --comp dir
+--data cremad --seed 1 --method came_nosubj --comp dir
+--data cremad --seed 2 --method came_nosubj --comp dir
+--data cremad --seed 3 --method came_nosubj --comp dir
+--data cremad --seed 4 --method came_nosubj --comp dir
+--data ravdess --seed 0 --method came_nosubj --comp dir
+--data ravdess --seed 1 --method came_nosubj --comp dir
+--data ravdess --seed 2 --method came_nosubj --comp dir
+--data ravdess --seed 3 --method came_nosubj --comp dir
+--data ravdess --seed 4 --method came_nosubj --comp dir
+--data cremad --seed 0 --method came_llm --comp dir
+--data cremad --seed 1 --method came_llm --comp dir
+--data cremad --seed 2 --method came_llm --comp dir
+--data cremad --seed 3 --method came_llm --comp dir
+--data cremad --seed 4 --method came_llm --comp dir
+--data ravdess --seed 0 --method came_llm --comp dir
+--data ravdess --seed 1 --method came_llm --comp dir
+--data ravdess --seed 2 --method came_llm --comp dir
+--data ravdess --seed 3 --method came_llm --comp dir
+--data ravdess --seed 4 --method came_llm --comp dir
+--data cremad --seed 0 --method came_llm05 --comp dir
+--data cremad --seed 1 --method came_llm05 --comp dir
+--data cremad --seed 2 --method came_llm05 --comp dir
+--data cremad --seed 3 --method came_llm05 --comp dir
+--data cremad --seed 4 --method came_llm05 --comp dir
+--data ravdess --seed 0 --method came_llm05 --comp dir
+--data ravdess --seed 1 --method came_llm05 --comp dir
+--data ravdess --seed 2 --method came_llm05 --comp dir
+--data ravdess --seed 3 --method came_llm05 --comp dir
+--data ravdess --seed 4 --method came_llm05 --comp dir
+--data cremad --seed 0 --method came_geo --comp dir
+--data cremad --seed 1 --method came_geo --comp dir
+--data cremad --seed 2 --method came_geo --comp dir
+--data cremad --seed 3 --method came_geo --comp dir
+--data cremad --seed 4 --method came_geo --comp dir
+--data ravdess --seed 0 --method came_geo --comp dir
+--data ravdess --seed 1 --method came_geo --comp dir
+--data ravdess --seed 2 --method came_geo --comp dir
+--data ravdess --seed 3 --method came_geo --comp dir
+--data ravdess --seed 4 --method came_geo --comp dir
+--data cremad --seed 0 --method came_georand --comp dir
+--data cremad --seed 1 --method came_georand --comp dir
+--data cremad --seed 2 --method came_georand --comp dir
+--data cremad --seed 3 --method came_georand --comp dir
+--data cremad --seed 4 --method came_georand --comp dir
+--data ravdess --seed 0 --method came_georand --comp dir
+--data ravdess --seed 1 --method came_georand --comp dir
+--data ravdess --seed 2 --method came_georand --comp dir
+--data ravdess --seed 3 --method came_georand --comp dir
+--data ravdess --seed 4 --method came_georand --comp dir
+--data cremad --seed 0 --method came_geoshuf --comp dir
+--data cremad --seed 1 --method came_geoshuf --comp dir
+--data cremad --seed 2 --method came_geoshuf --comp dir
+--data cremad --seed 3 --method came_geoshuf --comp dir
+--data cremad --seed 4 --method came_geoshuf --comp dir
+--data ravdess --seed 0 --method came_geoshuf --comp dir
+--data ravdess --seed 1 --method came_geoshuf --comp dir
+--data ravdess --seed 2 --method came_geoshuf --comp dir
+--data ravdess --seed 3 --method came_geoshuf --comp dir
+--data ravdess --seed 4 --method came_geoshuf --comp dir
+--data cremad --seed 0 --method came_onehot --comp dir
+--data cremad --seed 1 --method came_onehot --comp dir
+--data cremad --seed 2 --method came_onehot --comp dir
+--data cremad --seed 3 --method came_onehot --comp dir
+--data cremad --seed 4 --method came_onehot --comp dir
+--data ravdess --seed 0 --method came_onehot --comp dir
+--data ravdess --seed 1 --method came_onehot --comp dir
+--data ravdess --seed 2 --method came_onehot --comp dir
+--data ravdess --seed 3 --method came_onehot --comp dir
+--data ravdess --seed 4 --method came_onehot --comp dir
+--data cremad --seed 0 --method came --comp rand
+--data cremad --seed 1 --method came --comp rand
+--data cremad --seed 2 --method came --comp rand
+--data cremad --seed 3 --method came --comp rand
+--data cremad --seed 4 --method came --comp rand
+--data ravdess --seed 0 --method came --comp rand
+--data ravdess --seed 1 --method came --comp rand
+--data ravdess --seed 2 --method came --comp rand
+--data ravdess --seed 3 --method came --comp rand
+--data ravdess --seed 4 --method came --comp rand
+--data cremad --seed 0 --method came --comp dir --sup query
+--data cremad --seed 1 --method came --comp dir --sup query
+--data cremad --seed 2 --method came --comp dir --sup query
+--data cremad --seed 3 --method came --comp dir --sup query
+--data cremad --seed 4 --method came --comp dir --sup query
+--data ravdess --seed 0 --method came --comp dir --sup query
+--data ravdess --seed 1 --method came --comp dir --sup query
+--data ravdess --seed 2 --method came --comp dir --sup query
+--data ravdess --seed 3 --method came --comp dir --sup query
+--data ravdess --seed 4 --method came --comp dir --sup query
+--data cremad --seed 0 --method came --comp dir --frac 0.1
+--data cremad --seed 1 --method came --comp dir --frac 0.1
+--data cremad --seed 2 --method came --comp dir --frac 0.1
+--data cremad --seed 3 --method came --comp dir --frac 0.1
+--data cremad --seed 4 --method came --comp dir --frac 0.1
+--data ravdess --seed 0 --method came --comp dir --frac 0.1
+--data ravdess --seed 1 --method came --comp dir --frac 0.1
+--data ravdess --seed 2 --method came --comp dir --frac 0.1
+--data ravdess --seed 3 --method came --comp dir --frac 0.1
+--data ravdess --seed 4 --method came --comp dir --frac 0.1
+--data cremad --seed 0 --method came_llm --comp dir --frac 0.1
+--data cremad --seed 1 --method came_llm --comp dir --frac 0.1
+--data cremad --seed 2 --method came_llm --comp dir --frac 0.1
+--data cremad --seed 3 --method came_llm --comp dir --frac 0.1
+--data cremad --seed 4 --method came_llm --comp dir --frac 0.1
+--data ravdess --seed 0 --method came_llm --comp dir --frac 0.1
+--data ravdess --seed 1 --method came_llm --comp dir --frac 0.1
+--data ravdess --seed 2 --method came_llm --comp dir --frac 0.1
+--data ravdess --seed 3 --method came_llm --comp dir --frac 0.1
+--data ravdess --seed 4 --method came_llm --comp dir --frac 0.1
+--data cremad --seed 0 --method came_geo --comp dir --frac 0.1
+--data cremad --seed 1 --method came_geo --comp dir --frac 0.1
+--data cremad --seed 2 --method came_geo --comp dir --frac 0.1
+--data cremad --seed 3 --method came_geo --comp dir --frac 0.1
+--data cremad --seed 4 --method came_geo --comp dir --frac 0.1
+--data ravdess --seed 0 --method came_geo --comp dir --frac 0.1
+--data ravdess --seed 1 --method came_geo --comp dir --frac 0.1
+--data ravdess --seed 2 --method came_geo --comp dir --frac 0.1
+--data ravdess --seed 3 --method came_geo --comp dir --frac 0.1
+--data ravdess --seed 4 --method came_geo --comp dir --frac 0.1
+--data cremad --seed 0 --method came_georand --comp dir --frac 0.1
+--data cremad --seed 1 --method came_georand --comp dir --frac 0.1
+--data cremad --seed 2 --method came_georand --comp dir --frac 0.1
+--data cremad --seed 3 --method came_georand --comp dir --frac 0.1
+--data cremad --seed 4 --method came_georand --comp dir --frac 0.1
+--data ravdess --seed 0 --method came_georand --comp dir --frac 0.1
+--data ravdess --seed 1 --method came_georand --comp dir --frac 0.1
+--data ravdess --seed 2 --method came_georand --comp dir --frac 0.1
+--data ravdess --seed 3 --method came_georand --comp dir --frac 0.1
+--data ravdess --seed 4 --method came_georand --comp dir --frac 0.1
+--data cremad --seed 0 --method came_geoshuf --comp dir --frac 0.1
+--data cremad --seed 1 --method came_geoshuf --comp dir --frac 0.1
+--data cremad --seed 2 --method came_geoshuf --comp dir --frac 0.1
+--data cremad --seed 3 --method came_geoshuf --comp dir --frac 0.1
+--data cremad --seed 4 --method came_geoshuf --comp dir --frac 0.1
+--data ravdess --seed 0 --method came_geoshuf --comp dir --frac 0.1
+--data ravdess --seed 1 --method came_geoshuf --comp dir --frac 0.1
+--data ravdess --seed 2 --method came_geoshuf --comp dir --frac 0.1
+--data ravdess --seed 3 --method came_geoshuf --comp dir --frac 0.1
+--data ravdess --seed 4 --method came_geoshuf --comp dir --frac 0.1
+--data cremad --seed 0 --method came_onehot --comp dir --frac 0.1
+--data cremad --seed 1 --method came_onehot --comp dir --frac 0.1
+--data cremad --seed 2 --method came_onehot --comp dir --frac 0.1
+--data cremad --seed 3 --method came_onehot --comp dir --frac 0.1
+--data cremad --seed 4 --method came_onehot --comp dir --frac 0.1
+--data ravdess --seed 0 --method came_onehot --comp dir --frac 0.1
+--data ravdess --seed 1 --method came_onehot --comp dir --frac 0.1
+--data ravdess --seed 2 --method came_onehot --comp dir --frac 0.1
+--data ravdess --seed 3 --method came_onehot --comp dir --frac 0.1
+--data ravdess --seed 4 --method came_onehot --comp dir --frac 0.1
+--data cremad --seed 0 --method lp --comp dir
+--data cremad --seed 1 --method lp --comp dir
+--data cremad --seed 2 --method lp --comp dir
+--data cremad --seed 3 --method lp --comp dir
+--data cremad --seed 4 --method lp --comp dir
+--data ravdess --seed 0 --method lp --comp dir
+--data ravdess --seed 1 --method lp --comp dir
+--data ravdess --seed 2 --method lp --comp dir
+--data ravdess --seed 3 --method lp --comp dir
+--data ravdess --seed 4 --method lp --comp dir
+--data cremad --seed 0 --method mlp --comp dir
+--data cremad --seed 1 --method mlp --comp dir
+--data cremad --seed 2 --method mlp --comp dir
+--data cremad --seed 3 --method mlp --comp dir
+--data cremad --seed 4 --method mlp --comp dir
+--data ravdess --seed 0 --method mlp --comp dir
+--data ravdess --seed 1 --method mlp --comp dir
+--data ravdess --seed 2 --method mlp --comp dir
+--data ravdess --seed 3 --method mlp --comp dir
+--data ravdess --seed 4 --method mlp --comp dir
+--data cremad --seed 0 --method ctr --comp dir
+--data cremad --seed 1 --method ctr --comp dir
+--data cremad --seed 2 --method ctr --comp dir
+--data cremad --seed 3 --method ctr --comp dir
+--data cremad --seed 4 --method ctr --comp dir
+--data ravdess --seed 0 --method ctr --comp dir
+--data ravdess --seed 1 --method ctr --comp dir
+--data ravdess --seed 2 --method ctr --comp dir
+--data ravdess --seed 3 --method ctr --comp dir
+--data ravdess --seed 4 --method ctr --comp dir
+--data cremad --seed 0 --method ctr_mlp --comp dir
+--data cremad --seed 1 --method ctr_mlp --comp dir
+--data cremad --seed 2 --method ctr_mlp --comp dir
+--data cremad --seed 3 --method ctr_mlp --comp dir
+--data cremad --seed 4 --method ctr_mlp --comp dir
+--data ravdess --seed 0 --method ctr_mlp --comp dir
+--data ravdess --seed 1 --method ctr_mlp --comp dir
+--data ravdess --seed 2 --method ctr_mlp --comp dir
+--data ravdess --seed 3 --method ctr_mlp --comp dir
+--data ravdess --seed 4 --method ctr_mlp --comp dir
+--data cremad --seed 0 --method sstd --comp dir
+--data cremad --seed 1 --method sstd --comp dir
+--data cremad --seed 2 --method sstd --comp dir
+--data cremad --seed 3 --method sstd --comp dir
+--data cremad --seed 4 --method sstd --comp dir
+--data ravdess --seed 0 --method sstd --comp dir
+--data ravdess --seed 1 --method sstd --comp dir
+--data ravdess --seed 2 --method sstd --comp dir
+--data ravdess --seed 3 --method sstd --comp dir
+--data ravdess --seed 4 --method sstd --comp dir
+--data cremad --seed 0 --method cbc --comp dir
+--data cremad --seed 1 --method cbc --comp dir
+--data cremad --seed 2 --method cbc --comp dir
+--data cremad --seed 3 --method cbc --comp dir
+--data cremad --seed 4 --method cbc --comp dir
+--data ravdess --seed 0 --method cbc --comp dir
+--data ravdess --seed 1 --method cbc --comp dir
+--data ravdess --seed 2 --method cbc --comp dir
+--data ravdess --seed 3 --method cbc --comp dir
+--data ravdess --seed 4 --method cbc --comp dir
+--data cremad --seed 0 --method pl --comp dir
+--data cremad --seed 1 --method pl --comp dir
+--data cremad --seed 2 --method pl --comp dir
+--data cremad --seed 3 --method pl --comp dir
+--data cremad --seed 4 --method pl --comp dir
+--data ravdess --seed 0 --method pl --comp dir
+--data ravdess --seed 1 --method pl --comp dir
+--data ravdess --seed 2 --method pl --comp dir
+--data ravdess --seed 3 --method pl --comp dir
+--data ravdess --seed 4 --method pl --comp dir
+--data cremad --seed 0 --method fuse --comp dir
+--data cremad --seed 1 --method fuse --comp dir
+--data cremad --seed 2 --method fuse --comp dir
+--data cremad --seed 3 --method fuse --comp dir
+--data cremad --seed 4 --method fuse --comp dir
+--data ravdess --seed 0 --method fuse --comp dir
+--data ravdess --seed 1 --method fuse --comp dir
+--data ravdess --seed 2 --method fuse --comp dir
+--data ravdess --seed 3 --method fuse --comp dir
+--data ravdess --seed 4 --method fuse --comp dir
+--data cremad --seed 0 --method cat --comp dir
+--data cremad --seed 1 --method cat --comp dir
+--data cremad --seed 2 --method cat --comp dir
+--data cremad --seed 3 --method cat --comp dir
+--data cremad --seed 4 --method cat --comp dir
+--data ravdess --seed 0 --method cat --comp dir
+--data ravdess --seed 1 --method cat --comp dir
+--data ravdess --seed 2 --method cat --comp dir
+--data ravdess --seed 3 --method cat --comp dir
+--data ravdess --seed 4 --method cat --comp dir
+--data cremad --seed 0 --method settf --comp dir
+--data cremad --seed 1 --method settf --comp dir
+--data cremad --seed 2 --method settf --comp dir
+--data cremad --seed 3 --method settf --comp dir
+--data cremad --seed 4 --method settf --comp dir
+--data ravdess --seed 0 --method settf --comp dir
+--data ravdess --seed 1 --method settf --comp dir
+--data ravdess --seed 2 --method settf --comp dir
+--data ravdess --seed 3 --method settf --comp dir
+--data ravdess --seed 4 --method settf --comp dir
+--data cremad --seed 0 --method orc --comp dir
+--data cremad --seed 1 --method orc --comp dir
+--data cremad --seed 2 --method orc --comp dir
+--data cremad --seed 3 --method orc --comp dir
+--data cremad --seed 4 --method orc --comp dir
+--data ravdess --seed 0 --method orc --comp dir
+--data ravdess --seed 1 --method orc --comp dir
+--data ravdess --seed 2 --method orc --comp dir
+--data ravdess --seed 3 --method orc --comp dir
+--data ravdess --seed 4 --method orc --comp dir
+--data cremad --seed 0 --method came_noea --comp dir
+--data cremad --seed 1 --method came_noea --comp dir
+--data cremad --seed 2 --method came_noea --comp dir
+--data cremad --seed 3 --method came_noea --comp dir
+--data cremad --seed 4 --method came_noea --comp dir
+--data ravdess --seed 0 --method came_noea --comp dir
+--data ravdess --seed 1 --method came_noea --comp dir
+--data ravdess --seed 2 --method came_noea --comp dir
+--data ravdess --seed 3 --method came_noea --comp dir
+--data ravdess --seed 4 --method came_noea --comp dir
+--data cremad --seed 0 --method ctr --comp rand
+--data cremad --seed 1 --method ctr --comp rand
+--data cremad --seed 2 --method ctr --comp rand
+--data cremad --seed 3 --method ctr --comp rand
+--data cremad --seed 4 --method ctr --comp rand
+--data ravdess --seed 0 --method ctr --comp rand
+--data ravdess --seed 1 --method ctr --comp rand
+--data ravdess --seed 2 --method ctr --comp rand
+--data ravdess --seed 3 --method ctr --comp rand
+--data ravdess --seed 4 --method ctr --comp rand
+--data cremad --seed 0 --method ctr_mlp --comp rand
+--data cremad --seed 1 --method ctr_mlp --comp rand
+--data cremad --seed 2 --method ctr_mlp --comp rand
+--data cremad --seed 3 --method ctr_mlp --comp rand
+--data cremad --seed 4 --method ctr_mlp --comp rand
+--data ravdess --seed 0 --method ctr_mlp --comp rand
+--data ravdess --seed 1 --method ctr_mlp --comp rand
+--data ravdess --seed 2 --method ctr_mlp --comp rand
+--data ravdess --seed 3 --method ctr_mlp --comp rand
+--data ravdess --seed 4 --method ctr_mlp --comp rand
+--data cremad --seed 0 --method pl --comp rand
+--data cremad --seed 1 --method pl --comp rand
+--data cremad --seed 2 --method pl --comp rand
+--data cremad --seed 3 --method pl --comp rand
+--data cremad --seed 4 --method pl --comp rand
+--data ravdess --seed 0 --method pl --comp rand
+--data ravdess --seed 1 --method pl --comp rand
+--data ravdess --seed 2 --method pl --comp rand
+--data ravdess --seed 3 --method pl --comp rand
+--data ravdess --seed 4 --method pl --comp rand
+--data cremad --seed 0 --method cbc --comp rand
+--data cremad --seed 1 --method cbc --comp rand
+--data cremad --seed 2 --method cbc --comp rand
+--data cremad --seed 3 --method cbc --comp rand
+--data cremad --seed 4 --method cbc --comp rand
+--data ravdess --seed 0 --method cbc --comp rand
+--data ravdess --seed 1 --method cbc --comp rand
+--data ravdess --seed 2 --method cbc --comp rand
+--data ravdess --seed 3 --method cbc --comp rand
+--data ravdess --seed 4 --method cbc --comp rand
+--data cremad --seed 0 --method settf --comp rand
+--data cremad --seed 1 --method settf --comp rand
+--data cremad --seed 2 --method settf --comp rand
+--data cremad --seed 3 --method settf --comp rand
+--data cremad --seed 4 --method settf --comp rand
+--data ravdess --seed 0 --method settf --comp rand
+--data ravdess --seed 1 --method settf --comp rand
+--data ravdess --seed 2 --method settf --comp rand
+--data ravdess --seed 3 --method settf --comp rand
+--data ravdess --seed 4 --method settf --comp rand
+--data cremad --seed 0 --method cat --comp rand
+--data cremad --seed 1 --method cat --comp rand
+--data cremad --seed 2 --method cat --comp rand
+--data cremad --seed 3 --method cat --comp rand
+--data cremad --seed 4 --method cat --comp rand
+--data ravdess --seed 0 --method cat --comp rand
+--data ravdess --seed 1 --method cat --comp rand
+--data ravdess --seed 2 --method cat --comp rand
+--data ravdess --seed 3 --method cat --comp rand
+--data ravdess --seed 4 --method cat --comp rand
+--data cremad --seed 0 --method ctr_mlp --comp dir --sup query
+--data cremad --seed 1 --method ctr_mlp --comp dir --sup query
+--data cremad --seed 2 --method ctr_mlp --comp dir --sup query
+--data cremad --seed 3 --method ctr_mlp --comp dir --sup query
+--data cremad --seed 4 --method ctr_mlp --comp dir --sup query
+--data ravdess --seed 0 --method ctr_mlp --comp dir --sup query
+--data ravdess --seed 1 --method ctr_mlp --comp dir --sup query
+--data ravdess --seed 2 --method ctr_mlp --comp dir --sup query
+--data ravdess --seed 3 --method ctr_mlp --comp dir --sup query
+--data ravdess --seed 4 --method ctr_mlp --comp dir --sup query
+--data cremad --seed 0 --method settf --comp dir --sup query
+--data cremad --seed 1 --method settf --comp dir --sup query
+--data cremad --seed 2 --method settf --comp dir --sup query
+--data cremad --seed 3 --method settf --comp dir --sup query
+--data cremad --seed 4 --method settf --comp dir --sup query
+--data ravdess --seed 0 --method settf --comp dir --sup query
+--data ravdess --seed 1 --method settf --comp dir --sup query
+--data ravdess --seed 2 --method settf --comp dir --sup query
+--data ravdess --seed 3 --method settf --comp dir --sup query
+--data ravdess --seed 4 --method settf --comp dir --sup query
+--data cremad --seed 0 --method mlp --comp dir --frac 0.1
+--data cremad --seed 1 --method mlp --comp dir --frac 0.1
+--data cremad --seed 2 --method mlp --comp dir --frac 0.1
+--data cremad --seed 3 --method mlp --comp dir --frac 0.1
+--data cremad --seed 4 --method mlp --comp dir --frac 0.1
+--data ravdess --seed 0 --method mlp --comp dir --frac 0.1
+--data ravdess --seed 1 --method mlp --comp dir --frac 0.1
+--data ravdess --seed 2 --method mlp --comp dir --frac 0.1
+--data ravdess --seed 3 --method mlp --comp dir --frac 0.1
+--data ravdess --seed 4 --method mlp --comp dir --frac 0.1
+--data cremad --seed 0 --method ctr --comp dir --frac 0.1
+--data cremad --seed 1 --method ctr --comp dir --frac 0.1
+--data cremad --seed 2 --method ctr --comp dir --frac 0.1
+--data cremad --seed 3 --method ctr --comp dir --frac 0.1
+--data cremad --seed 4 --method ctr --comp dir --frac 0.1
+--data ravdess --seed 0 --method ctr --comp dir --frac 0.1
+--data ravdess --seed 1 --method ctr --comp dir --frac 0.1
+--data ravdess --seed 2 --method ctr --comp dir --frac 0.1
+--data ravdess --seed 3 --method ctr --comp dir --frac 0.1
+--data ravdess --seed 4 --method ctr --comp dir --frac 0.1
+--data cremad --seed 0 --method pl --comp dir --frac 0.1
+--data cremad --seed 1 --method pl --comp dir --frac 0.1
+--data cremad --seed 2 --method pl --comp dir --frac 0.1
+--data cremad --seed 3 --method pl --comp dir --frac 0.1
+--data cremad --seed 4 --method pl --comp dir --frac 0.1
+--data ravdess --seed 0 --method pl --comp dir --frac 0.1
+--data ravdess --seed 1 --method pl --comp dir --frac 0.1
+--data ravdess --seed 2 --method pl --comp dir --frac 0.1
+--data ravdess --seed 3 --method pl --comp dir --frac 0.1
+--data ravdess --seed 4 --method pl --comp dir --frac 0.1

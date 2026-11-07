@@ -1,0 +1,17 @@
+# stage 1: end-to-end CLIP fine-tuning (= CLIP-FT baseline) + dump fine-tuned tokens
+clip_ft | --data ravdess --fold 0 --re none --ctx 0 --reasoner tiny --epochs 15 --dump_feats 1
+clip_ft | --data ravdess --fold 1 --re none --ctx 0 --reasoner tiny --epochs 15 --dump_feats 1
+clip_ft | --data ravdess --fold 2 --re none --ctx 0 --reasoner tiny --epochs 15 --dump_feats 1
+clip_ft | --data ravdess --fold 3 --re none --ctx 0 --reasoner tiny --epochs 15 --dump_feats 1
+clip_ft | --data ravdess --fold 4 --re none --ctx 0 --reasoner tiny --epochs 15 --dump_feats 1
+clip_ft | --data ravdess --fold 5 --re none --ctx 0 --reasoner tiny --epochs 15 --dump_feats 1
+clip_ft | --data cremad --fold 0 --re none --ctx 0 --reasoner tiny --epochs 6 --dump_feats 1
+clip_ft | --data cremad --fold 1 --re none --ctx 0 --reasoner tiny --epochs 6 --dump_feats 1
+clip_ft | --data cremad --fold 2 --re none --ctx 0 --reasoner tiny --epochs 6 --dump_feats 1
+clip_ft | --data cremad --fold 3 --re none --ctx 0 --reasoner tiny --epochs 6 --dump_feats 1
+clip_ft | --data cremad --fold 4 --re none --ctx 0 --reasoner tiny --epochs 6 --dump_feats 1
+clip_ft | --data ferplus --re none --reasoner tiny --epochs 10 --dump_feats 1
+dev_e2e_mean | --data ravdess --fold 0 --re mean --reasoner tiny --epochs 15
+dev_e2e_mean | --data ravdess --fold 1 --re mean --reasoner tiny --epochs 15
+dev_e2e_mean | --data ravdess --fold 2 --re mean --reasoner tiny --epochs 15
+dev_e2e_mean | --data ravdess --fold 3 --re mean --reasoner tiny --epochs 15

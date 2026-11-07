@@ -1,0 +1,153 @@
+# stage 2: all methods on the shared fine-tuned backbone (cached tokens). tag | args
+ours | --data ravdess --fold 0 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 20 --bs 32
+ours_tiny | --data ravdess --fold 0 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+mllm_base | --data ravdess --fold 0 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 20 --bs 32
+ctxmean | --data ravdess --fold 0 --cached @DATA_ROOT@/features/ft --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+icl | --data ravdess --fold 0 --cached @DATA_ROOT@/features/ft --re icl --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+tent | --data ravdess --fold 0 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --tent 1 --epochs 30 --bs 32
+clip_lp | --data ravdess --fold 0 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+dfer_clip | --data ravdess --fold 0 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head cliptext --epochs 30 --bs 32
+m3dfel_mil | --data ravdess --fold 0 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head mil --epochs 30 --bs 32
+abl_nosubj | --data ravdess --fold 0 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_learned | --data ravdess --fold 0 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re learned --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_eb | --data ravdess --fold 0 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re eb --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_frozenrel | --data ravdess --fold 0 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+ours | --data ravdess --fold 1 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 20 --bs 32
+ours_tiny | --data ravdess --fold 1 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+mllm_base | --data ravdess --fold 1 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 20 --bs 32
+ctxmean | --data ravdess --fold 1 --cached @DATA_ROOT@/features/ft --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+icl | --data ravdess --fold 1 --cached @DATA_ROOT@/features/ft --re icl --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+tent | --data ravdess --fold 1 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --tent 1 --epochs 30 --bs 32
+clip_lp | --data ravdess --fold 1 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+dfer_clip | --data ravdess --fold 1 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head cliptext --epochs 30 --bs 32
+m3dfel_mil | --data ravdess --fold 1 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head mil --epochs 30 --bs 32
+abl_nosubj | --data ravdess --fold 1 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_learned | --data ravdess --fold 1 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re learned --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_eb | --data ravdess --fold 1 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re eb --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_frozenrel | --data ravdess --fold 1 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+ours | --data ravdess --fold 2 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 20 --bs 32
+ours_tiny | --data ravdess --fold 2 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+mllm_base | --data ravdess --fold 2 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 20 --bs 32
+ctxmean | --data ravdess --fold 2 --cached @DATA_ROOT@/features/ft --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+icl | --data ravdess --fold 2 --cached @DATA_ROOT@/features/ft --re icl --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+tent | --data ravdess --fold 2 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --tent 1 --epochs 30 --bs 32
+clip_lp | --data ravdess --fold 2 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+dfer_clip | --data ravdess --fold 2 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head cliptext --epochs 30 --bs 32
+m3dfel_mil | --data ravdess --fold 2 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head mil --epochs 30 --bs 32
+abl_nosubj | --data ravdess --fold 2 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_learned | --data ravdess --fold 2 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re learned --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_eb | --data ravdess --fold 2 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re eb --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_frozenrel | --data ravdess --fold 2 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+ours | --data ravdess --fold 3 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 20 --bs 32
+ours_tiny | --data ravdess --fold 3 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+mllm_base | --data ravdess --fold 3 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 20 --bs 32
+ctxmean | --data ravdess --fold 3 --cached @DATA_ROOT@/features/ft --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+icl | --data ravdess --fold 3 --cached @DATA_ROOT@/features/ft --re icl --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+tent | --data ravdess --fold 3 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --tent 1 --epochs 30 --bs 32
+clip_lp | --data ravdess --fold 3 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+dfer_clip | --data ravdess --fold 3 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head cliptext --epochs 30 --bs 32
+m3dfel_mil | --data ravdess --fold 3 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head mil --epochs 30 --bs 32
+abl_nosubj | --data ravdess --fold 3 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_learned | --data ravdess --fold 3 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re learned --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_eb | --data ravdess --fold 3 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re eb --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_frozenrel | --data ravdess --fold 3 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+ours | --data ravdess --fold 4 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 20 --bs 32
+ours_tiny | --data ravdess --fold 4 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+mllm_base | --data ravdess --fold 4 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 20 --bs 32
+ctxmean | --data ravdess --fold 4 --cached @DATA_ROOT@/features/ft --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+icl | --data ravdess --fold 4 --cached @DATA_ROOT@/features/ft --re icl --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+tent | --data ravdess --fold 4 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --tent 1 --epochs 30 --bs 32
+clip_lp | --data ravdess --fold 4 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+dfer_clip | --data ravdess --fold 4 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head cliptext --epochs 30 --bs 32
+m3dfel_mil | --data ravdess --fold 4 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head mil --epochs 30 --bs 32
+abl_nosubj | --data ravdess --fold 4 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_learned | --data ravdess --fold 4 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re learned --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_eb | --data ravdess --fold 4 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re eb --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_frozenrel | --data ravdess --fold 4 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+ours | --data ravdess --fold 5 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 20 --bs 32
+ours_tiny | --data ravdess --fold 5 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+mllm_base | --data ravdess --fold 5 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 20 --bs 32
+ctxmean | --data ravdess --fold 5 --cached @DATA_ROOT@/features/ft --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+icl | --data ravdess --fold 5 --cached @DATA_ROOT@/features/ft --re icl --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+tent | --data ravdess --fold 5 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --tent 1 --epochs 30 --bs 32
+clip_lp | --data ravdess --fold 5 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+dfer_clip | --data ravdess --fold 5 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head cliptext --epochs 30 --bs 32
+m3dfel_mil | --data ravdess --fold 5 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head mil --epochs 30 --bs 32
+abl_nosubj | --data ravdess --fold 5 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_learned | --data ravdess --fold 5 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re learned --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_eb | --data ravdess --fold 5 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re eb --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+abl_frozenrel | --data ravdess --fold 5 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re mean --reasoner tiny --mem_frac 0.2 --epochs 30 --bs 32
+ours | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 8 --bs 64
+ours_tiny | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+mllm_base | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 8 --bs 64
+ctxmean | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+icl | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --re icl --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+tent | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --tent 1 --epochs 10 --bs 64
+clip_lp | --data cremad --fold 0 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+dfer_clip | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head cliptext --epochs 10 --bs 64
+m3dfel_mil | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head mil --epochs 10 --bs 64
+abl_nosubj | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_learned | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re learned --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_eb | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re eb --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_frozenrel | --data cremad --fold 0 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+ours | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 8 --bs 64
+ours_tiny | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+mllm_base | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 8 --bs 64
+ctxmean | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+icl | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --re icl --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+tent | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --tent 1 --epochs 10 --bs 64
+clip_lp | --data cremad --fold 1 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+dfer_clip | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head cliptext --epochs 10 --bs 64
+m3dfel_mil | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head mil --epochs 10 --bs 64
+abl_nosubj | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_learned | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re learned --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_eb | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re eb --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_frozenrel | --data cremad --fold 1 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+ours | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 8 --bs 64
+ours_tiny | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+mllm_base | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 8 --bs 64
+ctxmean | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+icl | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --re icl --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+tent | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --tent 1 --epochs 10 --bs 64
+clip_lp | --data cremad --fold 2 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+dfer_clip | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head cliptext --epochs 10 --bs 64
+m3dfel_mil | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head mil --epochs 10 --bs 64
+abl_nosubj | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_learned | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re learned --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_eb | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re eb --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_frozenrel | --data cremad --fold 2 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+ours | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 8 --bs 64
+ours_tiny | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+mllm_base | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 8 --bs 64
+ctxmean | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+icl | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --re icl --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+tent | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --tent 1 --epochs 10 --bs 64
+clip_lp | --data cremad --fold 3 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+dfer_clip | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head cliptext --epochs 10 --bs 64
+m3dfel_mil | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head mil --epochs 10 --bs 64
+abl_nosubj | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_learned | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re learned --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_eb | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re eb --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_frozenrel | --data cremad --fold 3 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+ours | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 8 --bs 64
+ours_tiny | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+mllm_base | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 8 --bs 64
+ctxmean | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+icl | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --re icl --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+tent | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --tent 1 --epochs 10 --bs 64
+clip_lp | --data cremad --fold 4 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+dfer_clip | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head cliptext --epochs 10 --bs 64
+m3dfel_mil | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --head mil --epochs 10 --bs 64
+abl_nosubj | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re none --ctx 0 --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_learned | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re learned --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_eb | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re eb --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+abl_frozenrel | --data cremad --fold 4 --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re mean --reasoner tiny --mem_frac 0.2 --epochs 10 --bs 64
+ours | --data ferplus --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 6 --bs 64
+ours_tiny | --data ferplus --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner tiny --mem_frac 0.2 --epochs 15 --bs 128
+mllm_base | --data ferplus --cached @DATA_ROOT@/features/ft --re none --reasoner llm --epochs 6 --bs 64
+clip_lp | --data ferplus --cached @DATA_ROOT@/features/clip-vit-base-patch16 --grid 4 --re none --reasoner tiny --mem_frac 0.2 --epochs 15 --bs 128
+dfer_clip | --data ferplus --cached @DATA_ROOT@/features/ft --re none --reasoner tiny --mem_frac 0.2 --head cliptext --epochs 15 --bs 128
+m3dfel_mil | --data ferplus --cached @DATA_ROOT@/features/ft --re none --reasoner tiny --mem_frac 0.2 --head mil --epochs 15 --bs 128
+abl_nosubj | --data ferplus --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re none --reasoner tiny --mem_frac 0.2 --epochs 15 --bs 128
+ZS | clip
+ZS | qwen2vl

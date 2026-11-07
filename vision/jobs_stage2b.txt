@@ -1,0 +1,10 @@
+ours | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 8 --bs 32
+mllm_base | --data cremad --fold 0 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 8 --bs 32
+ours | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 8 --bs 32
+mllm_base | --data cremad --fold 1 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 8 --bs 32
+ours | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 8 --bs 32
+mllm_base | --data cremad --fold 2 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 8 --bs 32
+ours | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 8 --bs 32
+mllm_base | --data cremad --fold 3 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 8 --bs 32
+ours | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 8 --bs 32
+mllm_base | --data cremad --fold 4 --cached @DATA_ROOT@/features/ft --re none --ctx 0 --reasoner llm --epochs 8 --bs 32

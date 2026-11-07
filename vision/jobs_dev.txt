@@ -1,0 +1,5 @@
+dev_e2e_mean | --data ravdess --fold 0 --re mean --reasoner tiny --epochs 15
+dev_e2e_mean | --data ravdess --fold 1 --re mean --reasoner tiny --epochs 15
+dev_e2e_mean | --data ravdess --fold 2 --re mean --reasoner tiny --epochs 15
+dev_e2e_mean | --data ravdess --fold 3 --re mean --reasoner tiny --epochs 15
+dev_e2e_mean | --data cremad --fold 0 --re mean --reasoner tiny --epochs 6

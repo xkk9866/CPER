@@ -1,0 +1,2 @@
+ours | --data ferplus --cached @DATA_ROOT@/features/ft --cached2 @DATA_ROOT@/features/clip-vit-base-patch16 --re mean --reasoner llm --epochs 6 --bs 64
+mllm_base | --data ferplus --cached @DATA_ROOT@/features/ft --re none --reasoner llm --epochs 6 --bs 64
